@@ -518,6 +518,7 @@ button {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
+
  .intern .rex .boxx .contentbox .web:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
@@ -824,7 +825,7 @@ footer .line {
 } */
 
 @media (max-width: 600px) { 
-  /* END */
+  
   .card { 
     width: 300px;
     height: 400px;
@@ -850,10 +851,17 @@ footer .line {
   .bok {
     margin: 10px auto; 
     width: 70%;
-    height: 300px;
+    height: 320px;
     border-radius: 10px;
   }
+  
+  .bok p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  /* end deskripsi */
 
+ /* edukasi */
   .row1-container {
     flex-direction: column;
   }
@@ -863,7 +871,8 @@ footer .line {
     top: 2px;
   }
   .box {
-    width: 50%;
+    width: 70%;
+    margin-bottom: 40px;
   }
 
   .box-top {
@@ -875,24 +884,44 @@ footer .line {
     width: 30%;
   }   
 
-  /* pengalaman */
-  .card4__dsk {
-    font-size: 25px;
-    color: black;
-    text-align: center;
-    padding: 30px;
-    margin-top: -40px;
-    font-weight: bold;
+  .intern .rex {
+    height: 440px;
+    width: 400px;
   }
 
-  .card4__title {
-    grid-row: 3/4;
-    color: black;
-    text-align: center;
-    margin: 10px 60px;
-    font-size: 18px;
+  .intern .rex .boxx .contentbox .textdurasi {
+    font-size: 20px;
   }
-  /* EndPengalaman */
+  
+  .intern .rex .boxx .contentbox .durasi1 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi3 {
+    font-size: 17px;
+  }
+
+  .intern .rex .boxx .contentbox .web {
+    padding: 8px 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* project */
+  .project .kotak .face.face2 .content p{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 15px;
+  }
 
   .project{
     display: flex;
@@ -903,9 +932,49 @@ footer .line {
   .project .kotak .face{
     text-align: center;
     justify-content: center;  
-    /* margin: 0 130px; */
-    /* margin: auto; */
   }
+  /* end project */
+
+  /* pengalaman */
+  .card4__dsk {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: -18px;
+    font-weight: bold;
+  }
+
+  .card4 {
+    width: 400px;
+  }
+
+  .card4__link {
+    font-size: 18px;
+  }
+
+  .card4__title {
+    grid-row: 3/4;
+    color: black;
+    text-align: center;
+    margin: 10px 60px;
+    font-size: 20px;
+  }
+  /* EndPengalaman */
+
+  /* footer */
+  footer {
+    width: 500px auto;
+  }
+  .footer-head {
+    padding-left: 25px;
+    font-size: 15px;
+  }
+  .quicklinks {
+    padding-right: 25px;
+  }
+
+  /* end footer */
 
   .skil {
     padding: 20px;
