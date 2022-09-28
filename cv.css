@@ -216,14 +216,8 @@ button {
   text-align: center;
 }
 
-.row1-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .bok {
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0px 30px 40px -20px var(--grayishBlue);
   padding: 30px;
   margin: 70px auto; 
@@ -233,7 +227,6 @@ button {
   border-top: 3px solid;
   height: 220px;
 }
-
 /* End Deskripsi */
 
 /* edukasi */
@@ -268,6 +261,11 @@ button {
   color: var(--grayishBlue);
 }
 
+.row1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .box p {
   color: dimgray;
