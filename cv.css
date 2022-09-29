@@ -97,20 +97,7 @@ input[type=checkbox] {
   font-size: 24px;
   user-select: none;
 }
-
 /* End Navbar */
-
-/* box shadow */
-.bg {
-  color: black;
-  text-align: center;
-  box-shadow: 0 0 0 1em lightsteelblue,
-              0 0 0 2em #333;
-  margin: 2em;
-  padding: 1em;
-  border-radius: 3px;
-} 
-/* EndBox */
 
 /* Profile */
 .card { 
@@ -120,7 +107,7 @@ input[type=checkbox] {
   margin-top: 50px;
   text-align: center;
   border-radius: 15px;
-  width: 400px;
+  width: 350px;
   padding: 20px;
   background-color: #e7e7e7;
 }
@@ -128,6 +115,7 @@ input[type=checkbox] {
 .nama {
   margin: 15px;
   color: #111;
+  font-size: 20px;
 }
 
 .contact {
@@ -158,26 +146,8 @@ p{
 
 .title {
   color: grey;
-  font-size: 20px;
+  font-size: 17px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-button {
-  border: none;
-  outline: 0;
-  padding: 8px;
-  color: white;
-  background-color: darkgrey;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-  margin: auto;
-}
-
-.default {
-  color: black;
-  border-radius: 5px;
 }
 
 /* EndProfil */
@@ -185,10 +155,10 @@ button {
 /* garis */
 .garis {
   display: block;
-  width: 90%;
+  width: 92%;
   margin: 100px auto 0;
   margin-top: 90px;
-  height: 5px;
+  height: 4px;
   background-color: #333;
 }
 /* End Garis */
@@ -204,7 +174,7 @@ button {
   text-align: center;
   line-height: 0.8;
   margin-bottom: 50px;
-  margin-top: 100px;  
+  margin-top: 70px;  
 }
 
 .bok p {
@@ -222,7 +192,7 @@ button {
   padding: 30px;
   margin: 70px auto; 
   background-color: #e7e7e7; 
-  width: 700px;
+  width: 670px;
   box-shadow: #111;
   border-top: 3px solid;
   height: 220px;
@@ -251,20 +221,8 @@ button {
 .headercard3 {
   text-align: center;
   line-height: 0.8;
-  margin-bottom: 50px;
-  margin-top: 100px;  
-}
-
-.headercard3 p {
-  margin: 0 auto;
-  line-height: 2;
-  color: var(--grayishBlue);
-}
-
-.row1-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 80px;  
 }
 
 .box p {
@@ -272,7 +230,7 @@ button {
   font-weight: var(--weight3);
   font-size: 15px;
   margin: 10px auto;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   
 }
 
@@ -281,6 +239,7 @@ button {
   margin: -5px auto;
   margin-bottom: 30px;
   font-style: italic;
+  font-size: 15px;
 }
 
 .box {
@@ -290,13 +249,12 @@ button {
   background-color: #e7e7e7; 
   width: 700px;
   box-shadow: #111;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .box img {
   float: right;
   width: 70px;
-  
 }
 
 .cyan {
@@ -312,17 +270,20 @@ button {
 .box h2 {
   color: var(--varyDarkBlue);
   font-weight: var(--weight3);
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px auto;
   
 }
 
 .row1-container {
+  justify-content: center;
+  align-items: center;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 10px 30px;
   margin-bottom: 180px;
+  margin: 100px 70px;
 }
 
 .row2-container {
@@ -335,13 +296,12 @@ button {
   top: 150px;
 }
 .box {
-  width: 20%;
-  min-width: 250px;
+  width: 25%;
 }
-.headercard3 p {
-  width: 30%;
-}   
 
+.box .card3a{
+  width: 90px;
+}
 /* Endedukasi */
 
 
@@ -356,6 +316,8 @@ button {
 
 .heading__title {
   font-weight: 600;
+  margin-bottom: 70px;
+  margin-top: 40px
 }
 
 .cards {
@@ -473,7 +435,7 @@ button {
 }
 
  .intern .rex .boxx .contentbox .durasi1 {
-  font-size: 1.5rem;
+  font-size: 21px;
   color: black;
   z-index: 1;
   transition: 0.5s;
@@ -485,25 +447,28 @@ button {
   color: black;
   z-index: 1;
   transition: 0.5s;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .intern .rex .boxx .contentbox .durasi2 {
-  font-size: 15px;
+  font-size: 12px;
   color: #2a2b2f;
   z-index: 1;
   transition: 0.5s;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 5px;
+  font-style: italic;
 }
 
 .intern .rex .boxx .contentbox .durasi3 {
-  font-size: 15px;
+  font-size: 13px;
   color: #2a2b2f;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 10px;
   margin-top: 5px;
-  font: bold;
+  font-weight: bold;
 }
 
  .intern .rex .boxx .contentbox .web {
@@ -775,6 +740,542 @@ footer .line {
 }
 
 /* Responsive */
+
+/* @media (max-width: 1280px) { 
+  .menu {
+    padding: 20px 0;
+  }
+
+  .men {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  input[type=checkbox]:checked~.menu {
+    display: block;
+  }
+
+  .card { 
+    width: 370px;
+    height: 540px;
+  }
+
+  .contact {
+    margin: 15px auto;
+  }
+  
+  .contact .iconcontact{
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .nama {
+    margin-top: 25px;
+    font-size: 23px;
+}
+  .title{
+    font-size: 21px;
+  }
+
+ 
+  .bok {
+    margin: 20px auto; 
+    width: 55%;
+    height: 285px;
+    border-radius: 15px;
+  }
+  
+  .bok p {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+ 
+  .row1-container {
+    flex-direction: row;
+  }
+
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 25%;
+    margin-bottom: 50px;
+  }
+
+  .box-top {
+    position: relative;
+    top: 5px;
+  }
+  
+  .headercard3 p, .ket{
+    width: 100%;
+    font: bold;
+  }   
+  .box img {
+    width: 80px;
+  }
+
+  .card4__dsk {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: -18px;
+  }
+
+  .card4 {
+    width: 450px;
+    height: 270px;
+  }
+
+  .card4__link {
+    font-size: 19px;
+    margin-bottom: 25px;
+  }
+
+  .card4__title {
+    margin: 10px 60px;
+    font-size: 22px;
+  }
+ 
+  .intern .rex {
+    height: 480px;
+    width: 450px;
+  }
+
+  .intern .rex .boxx .contentbox .textdurasi {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi1 {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .intern .rex .boxx .contentbox .durasi2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-style: italic;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi3 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .intern .rex .boxx .contentbox .web {
+    padding: 3px 18px;
+    margin-top: 18px;
+    margin-bottom: 70px;
+  }
+  
+  footer {
+    width: 500px auto;
+  }
+  .footer-head {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .quicklinks {
+    padding-right: 10px;
+  }
+  footer .line {
+    width: 100%;
+    height: 3px;
+  }
+  
+  .footer-foot .contacts a {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-foot .copyright {
+    font-size: 17px;
+   margin-bottom: 20px;
+    margin-top: 25px;
+  }
+ 
+  .card {
+    margin-top: 40px;
+  }
+} */
+
+@media (max-width: 950px) {
+  .navbar {
+    padding: 27px;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu .men+.men {
+    margin-top: 12px;
+  }
+
+  input[type=checkbox]:checked~.menu {
+    display: block;
+  }
+  
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 10%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .logo {
+    width: 95px;
+  }
+  .card { 
+    width: 400px;
+    height: 580px;
+  }
+
+  .contact {
+    margin: 15px auto;
+  }
+  
+  .contact .iconcontact{
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .nama {
+    margin-top: 20px;
+    font-size: 25px;
+}
+  .title{
+    font-size: 20px;
+  }
+
+  /* deskripsi */
+  .bok {
+    margin: 20px auto; 
+    width: 65%;
+    height: 293px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+  }
+  
+  .bok p {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  /* end deskripsi */
+
+ /* edukasi */
+  .row1-container {
+    flex-direction: column;
+  }
+
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 55%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .box-top {
+    position: relative;
+    top: 95px;
+  }
+  
+  .headercard3{
+    width: 100%;
+    font: bold;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 170px;
+  }
+  .box .card3a {
+    width: 105px;
+    margin-right: 150px;
+  }
+  .box h2 {
+    font-size: 27px;
+  }
+  .box p{
+    font-size: 20px;
+  }
+  .box p.ket{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* end edukasi */
+
+  /* experiences */
+  .card4__dsk {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: -18px;
+  }
+
+  .card4 {
+    width: 530px;
+    height: 270px;
+  }
+
+  .card4__link {
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  .card4__title {
+    margin: 10px 60px;
+    font-size: 23px;
+    margin-bottom: -10px;
+  }
+ /* end experiences */
+
+ /* intern */
+  .intern .rex {
+    height: 495px;
+    width: 450px;
+  }
+
+  .intern .rex .boxx .contentbox .textdurasi {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi1 {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .intern .rex .boxx .contentbox .durasi2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-style: italic;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi3 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .intern .rex .boxx .contentbox .web {
+    padding: 3px 18px;
+    margin-top: 18px;
+    margin-bottom: 70px;
+  }
+  
+  /* project */
+  /* end project */
+
+  /* footer */
+  footer {
+    width: 500px auto;
+  }
+  .footer-head {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .quicklinks {
+    padding-right: 10px;
+  }
+  footer .line {
+    width: 100%;
+    height: 3px;
+  }
+  
+  .footer-foot .contacts a {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-foot .copyright {
+    font-size: 17px;
+   margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  /* end footer */
+
+  .card {
+    margin-top: 40px;
+  }
+
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    padding: 27px;
+  }
+
+  .logo {
+    width: 95px;
+  }
+  .card { 
+    width: 390px;
+    height: 570px;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  /* deskripsi */
+  .bok {
+    margin: 20px auto; 
+    width: 65%;
+    height: 285px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+  }
+  
+  .bok p {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  /* end deskripsi */
+
+ /* edukasi */
+  .row1-container {
+    flex-direction: column;
+  }
+
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 55%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .box-top {
+    position: relative;
+    top: 95px;
+  }
+  
+  .headercard3{
+    width: 100%;
+    font: bold;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 100px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 80px;
+  }
+  .box h2 {
+    font-size: 25px;
+  }
+  .box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .box p.ket {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  /* end edukasi */
+
+  /* experiences */
+  .card4__dsk {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: -18px;
+  }
+
+  .card4 {
+    width: 530px;
+    height: 270px;
+  }
+
+  .card4__link {
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  .card4__title {
+    margin: 10px 60px;
+    font-size: 23px;
+    margin-bottom: -10px;
+  }
+ /* end experiences */
+
+ /* intern */
+  .intern .rex {
+    height: 495px;
+    width: 450px;
+  }
+
+  .intern .rex .boxx .contentbox .textdurasi {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi1 {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .intern .rex .boxx .contentbox .durasi2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-style: italic;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi3 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .intern .rex .boxx .contentbox .web {
+    padding: 3px 18px;
+    margin-top: 18px;
+    margin-bottom: 70px;
+  }
+  
+  /* project */
+  .project .kotak .face.face2 .content p{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 16px;
+  }
+  /* end project */
+
+  .card {
+    margin-top: 40px;
+  }
+
+}
+
 @media (max-width: 800px) {
   .menu {
     display: none;
@@ -815,20 +1316,325 @@ footer .line {
     background-color: rgb(59, 59, 59);
   }
 
+  .card { 
+    width: 390px;
+    height: 560px;
   }
 
-/* @media (max-width: 768px){
-.homepage{
-    font-size: 30px;
-    padding: 40% 0% 10% 22%;
+  /* deskripsi */
+  .bok {
+    margin: 20px auto; 
+    width: 65%;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    margin-top: 80px;
   }
-} */
+  
+  .bok p {
+    font-size: 21px;
+    margin-top: 15px;
+  }
+  /* end deskripsi */
+
+ /* edukasi */
+  .row1-container {
+    flex-direction: column;
+  }
+
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 55%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .box-top {
+    position: relative;
+    top: 95px;
+  }
+  
+  .headercard3{
+    width: 100%;
+    font: bold;
+    margin-bottom: 10px;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 95px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 73px;
+  }
+  .box h2 {
+    font-size: 23px;
+  }
+  .box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .box p.ket{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* end edukasi */
+
+  /* experiences */
+  .card4__dsk {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: -18px;
+  }
+
+  .card4 {
+    width: 530px;
+    height: 270px;
+  }
+
+  .card4__link {
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  .card4__title {
+    margin: 10px 60px;
+    font-size: 23px;
+    margin-bottom: -10px;
+  }
+ /* end experiences */
+  
+  /* project */
+  .project .kotak .face.face2 .content p{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .headerproject {
+    margin-top: 100px;
+  }
+  /* end project */
+
+  /* skill */
+  .headerskill {
+    margin-top: 90px;
+  }
+
+  .card {
+    margin-top: 40px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .homepage{
+      font-size: 30px;
+      padding: 40% 0% 10% 22%;
+    }
+
+    .box .card3 {
+      width: 80px;
+      margin-right: 70px;
+    }
+    .box .card3a {
+      width: 110px;
+      margin-right: 60px;
+      height: 100px;
+    }
+  }
+
+@media (max-width: 700px) {
+  .card { 
+    width: 390px;
+    height: 560px;
+  }
+
+  /* deskripsi */
+  .bok {
+    margin: 20px auto; 
+    width: 65%;
+    height: 320px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+  
+  .bok p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  /* end deskripsi */
+
+ /* edukasi */
+  .row1-container {
+    flex-direction: column;
+  }
+
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 58%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .box-top {
+    position: relative;
+    top: 95px;
+  }
+  
+  .headercard3{
+    width: 100%;
+    font: bold;
+    margin-bottom: 10px;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 70px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 60px;
+    height: 100px;
+  }
+  .box h2 {
+    font-size: 22px;
+  }
+  .box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .box p.ket {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  /* end edukasi */
+  
+  /* project */
+  .headerproject {
+    margin-top: 100px;
+  }
+  /* end project */
+
+  /* skill */
+  .headerskill {
+    margin-top: 90px;
+  }
+
+  .card {
+    margin-top: 40px;
+  }
+
+}
+
+@media (max-width: 650px) { 
+  .logo {
+    width: 100px;
+    margin-right: 110px;
+  }
+
+  .card { 
+    width: 310px;
+    height: 470px;
+  }
+
+  /* deskripsi */
+  .bok {
+    margin: 10px auto; 
+    width: 70%;
+    height: 270px;
+    border-radius: 10px;
+  }
+  
+  .bok p {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  /* end deskripsi */
+
+ /* edukasi */
+  .row1-container {
+    flex-direction: column;
+  }
+
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 70%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .box-top {
+    position: relative;
+    top: 95px;
+  }
+  
+  .headercard3{
+    width: 100%;
+    font: bold;
+    margin-bottom: 10px;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 85px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 65px;
+  }
+  .box h2 {
+    font-size: 23px;
+  }
+  .box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .box .ket{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* footer */
+  footer {
+    width: 500px auto;
+  }
+  .footer-head {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .quicklinks {
+    padding-right: 10px;
+  }
+  footer .line {
+    width: 100%;
+    height: 3px;
+  }
+  /* end footer */
+  .card {
+    margin-top: 40px;
+  }
+}
 
 @media (max-width: 600px) { 
-  
+  .logo {
+    width: 110px;
+    margin-right: 110px;
+  }
+
   .card { 
     width: 300px;
-    height: 400px;
+    height: 445px;
   }
 
   .contact {
@@ -840,7 +1646,7 @@ footer .line {
   }
   
   img {
-    width: 80%;
+    width: 95%;
   }
   
   p{
@@ -871,21 +1677,44 @@ footer .line {
     top: 2px;
   }
   .box {
-    width: 70%;
-    margin-bottom: 40px;
+    width: 80%;
+    margin-bottom: 50px;
   }
 
   .box-top {
     position: relative;
     top: 2px;
   }
-  
-  .headercard3 p {
-    width: 30%;
-  }   
+  .headercard3{
+    width: 100%;
+    font: bold;
+    margin-bottom: 70px;
 
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 87px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 65px;
+    height: 80px;
+  }
+  .box h2 {
+    font-size: 21px;
+  }
+  .box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .box p.ket {
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+
+  /* intern */
   .intern .rex {
-    height: 440px;
+    height: 470px;
     width: 400px;
   }
 
@@ -894,25 +1723,25 @@ footer .line {
   }
   
   .intern .rex .boxx .contentbox .durasi1 {
-    font-size: 1.6rem;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 50px;
   }
   
   .intern .rex .boxx .contentbox .durasi2 {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 15px;
     margin-top: 10px;
   }
   
   .intern .rex .boxx .contentbox .durasi3 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .intern .rex .boxx .contentbox .web {
-    padding: 8px 20px;
+    padding: 5px 15px;
     margin-top: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
   }
   
   /* project */
@@ -937,7 +1766,7 @@ footer .line {
 
   /* pengalaman */
   .card4__dsk {
-    font-size: 25px;
+    font-size: 23px;
     color: black;
     text-align: center;
     padding: 30px;
@@ -954,11 +1783,8 @@ footer .line {
   }
 
   .card4__title {
-    grid-row: 3/4;
-    color: black;
-    text-align: center;
-    margin: 10px 60px;
-    font-size: 20px;
+    margin-top: 15px;
+    
   }
   /* EndPengalaman */
 
@@ -967,28 +1793,104 @@ footer .line {
     width: 500px auto;
   }
   .footer-head {
-    padding-left: 25px;
-    font-size: 15px;
+    padding-left: 20px;
+    font-size: 16px;
   }
   .quicklinks {
     padding-right: 25px;
   }
-
+  footer .line {
+    width: 100%;
+    height: 3px;
+  }
   /* end footer */
+  .card {
+    margin-top: 40px;
+  }
+}
 
-  .skil {
-    padding: 20px;
+@media (max-width: 550px) {
+  .card { 
+    width: 390px;
+    height: 560px;
   }
 
-  .items {
-    height: 250px;
+  /* deskripsi */
+  .bok {
+    margin: 20px auto; 
+    width: 65%;
+    height: 320px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+  
+  .bok p {
+    font-size: 21px;
+    margin-top: 15px;
+  }
+  /* end deskripsi */
+
+ /* edukasi */
+  .row1-container {
+    flex-direction: column;
   }
 
-  .bg {
-    font-size: 1.3em;
+  .box-down {
+    position: relative;
+    top: 100px;
+  }
+  .box {
+    width: 80%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .box-top {
+    position: relative;
+    top: 95px;
+  }
+  
+  .headercard3{
+    width: 100%;
+    font: bold;
+    margin-bottom: 10px;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 65px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 50px;
+    height: 100px;
+  }
+  .box h2 {
+    font-size: 22px;
+  }
+  .box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .box .ket{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* end edukasi */
+  
+  /* project */
+  .headerproject {
+    margin-top: 100px;
+  }
+  /* end project */
+
+  /* skill */
+  .headerskill {
+    margin-top: 90px;
   }
 
   .card {
     margin-top: 40px;
   }
+
 }
