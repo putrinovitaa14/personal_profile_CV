@@ -1627,199 +1627,192 @@ footer .line {
 }
 
 @media (max-width: 600px) { 
-  .logo {
-    width: 110px;
-    margin-right: 110px;
-  }
+.logo {
+  width: 110px;
+  margin-right: 110px;
+}
 
-  .card { 
-    width: 300px;
-    height: 445px;
-  }
+.card { 
+  width: 298px;
+  height: 458px;
+}
 
-  .contact {
-    margin: 15px auto;
-  }
+.contact {
+  margin: 15px auto;
+}
+
+.contact .iconcontact{
+  margin-bottom: 20px;
+}
+
+img {
+  width: 98%;
+}
+.nama {
+font-size: 23px;
+margin-bottom: 10px;
+margin-top: 12px;
+}
+p{
+  margin-bottom: 20px;
+  font-size: 5px;
+}
+
+/* deskripsi */
+.bok {
+  margin: 10px auto; 
+  width: 70%;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.bok p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* end deskripsi */
+
+/* edukasi */
+.row1-container {
+  flex-direction: column;
+}
+.box-down {
+  position: relative;
+  top: 2px;
+}
+.box {
+  width: 80%;
+  margin-bottom: 50px;
+}
+.box-top {
+  position: relative;
+  top: 2px;
+}
+.headercard3{
+  width: 100%;
+  font: bold;
+  margin-bottom: 70px;
+}   
+.box .card3 {
+  width: 80px;
+  margin-right: 87px;
+}
+.box .card3a {
+  width: 110px;
+  margin-right: 65px;
+  height: 80px;
+}
+.box h2 {
+  font-size: 21px;
+}
+.box p{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.box p.ket {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+/* intern */
+.intern .rex {
+  height: 470px;
+  width: 400px;
+}
+.intern .rex .boxx .contentbox .textdurasi {
+  font-size: 20px;
+}
+.intern .rex .boxx .contentbox .durasi1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.intern .rex .boxx .contentbox .durasi2 {
+  font-size: 17px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.intern .rex .boxx .contentbox .durasi3 {
+  font-size: 18px;
+}
+.intern .rex .boxx .contentbox .web {
+  padding: 5px 15px;
+  margin-top: 18px;
+  margin-bottom: 35px;
+}
+
+/* project */
+.project .kotak .face.face2 .content p{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding: 0;
+  font-size: 15px;
+}
+.project{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+.project .kotak .face{
+  text-align: center;
+  justify-content: center;  
+}
+/* end project */
+
+/* pengalaman */
+.card4__dsk {
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  margin-top: -18px;
+  font-weight: bold;
+}
+.card4 {
+  width: 400px;
+}
+.card4__link {
+  font-size: 18px;
+}
+.card4__title {
+  margin-top: 15px;
   
-  .contact .iconcontact{
-    margin-bottom: 20px;
-  }
-  
-  img {
-    width: 95%;
-  }
-  
-  p{
-    font-size: 10px;
-  }
+}
+/* EndPengalaman */
 
-  /* deskripsi */
-  .bok {
-    margin: 10px auto; 
-    width: 70%;
-    height: 320px;
-    border-radius: 10px;
-  }
-  
-  .bok p {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  /* end deskripsi */
-
- /* edukasi */
-  .row1-container {
-    flex-direction: column;
-  }
-
-  .box-down {
-    position: relative;
-    top: 2px;
-  }
-  .box {
-    width: 80%;
-    margin-bottom: 50px;
-  }
-
-  .box-top {
-    position: relative;
-    top: 2px;
-  }
-  .headercard3{
-    width: 100%;
-    font: bold;
-    margin-bottom: 70px;
-
-  }   
-  .box .card3 {
-    width: 80px;
-    margin-right: 87px;
-  }
-  .box .card3a {
-    width: 110px;
-    margin-right: 65px;
-    height: 80px;
-  }
-  .box h2 {
-    font-size: 21px;
-  }
-  .box p{
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-  .box p.ket {
-    margin-bottom: 30px;
-    font-size: 17px;
-  }
-
-  /* intern */
-  .intern .rex {
-    height: 470px;
-    width: 400px;
-  }
-
-  .intern .rex .boxx .contentbox .textdurasi {
-    font-size: 20px;
-  }
-  
-  .intern .rex .boxx .contentbox .durasi1 {
-    font-size: 26px;
-    margin-bottom: 10px;
-    margin-top: 50px;
-  }
-  
-  .intern .rex .boxx .contentbox .durasi2 {
-    font-size: 17px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-  
-  .intern .rex .boxx .contentbox .durasi3 {
-    font-size: 18px;
-  }
-
-  .intern .rex .boxx .contentbox .web {
-    padding: 5px 15px;
-    margin-top: 18px;
-    margin-bottom: 35px;
-  }
-  
-  /* project */
-  .project .kotak .face.face2 .content p{
-    margin-top: 50px;
-    margin-bottom: 15px;
-    padding: 0;
-    font-size: 15px;
-  }
-
-  .project{
-    display: flex;
-    justify-content: center;  
-    align-items: center;
-  }
-
-  .project .kotak .face{
-    text-align: center;
-    justify-content: center;  
-  }
-  /* end project */
-
-  /* pengalaman */
-  .card4__dsk {
-    font-size: 23px;
-    color: black;
-    text-align: center;
-    padding: 30px;
-    margin-top: -18px;
-    font-weight: bold;
-  }
-
-  .card4 {
-    width: 400px;
-  }
-
-  .card4__link {
-    font-size: 18px;
-  }
-
-  .card4__title {
-    margin-top: 15px;
-    
-  }
-  /* EndPengalaman */
-
-  /* footer */
-  footer {
-    width: 500px auto;
-  }
-  .footer-head {
-    padding-left: 20px;
-    font-size: 16px;
-  }
-  .quicklinks {
-    padding-right: 25px;
-  }
-  footer .line {
-    width: 100%;
-    height: 3px;
-  }
-  /* end footer */
-  .card {
-    margin-top: 40px;
-  }
+/* footer */
+footer {
+  width: 500px auto;
+}
+.footer-head {
+  padding-left: 15px;
+  font-size: 16px;
+}
+.quicklinks {
+  padding-right: 15px;
+}
+footer .line {
+  width: 100%;
+  height: 3px;
+}
+/* end footer */
+.card {
+  margin-top: 40px;
+}
 }
 
 @media (max-width: 550px) {
   .card { 
-    width: 390px;
-    height: 560px;
+    width: 350px;
+    height: 500px;
+
   }
 
   /* deskripsi */
   .bok {
     margin: 20px auto; 
     width: 65%;
-    height: 320px;
+    height: 375px;
     border-radius: 15px;
     margin-bottom: 100px;
     margin-top: 80px;
@@ -1835,34 +1828,18 @@ footer .line {
   .row1-container {
     flex-direction: column;
   }
-
-  .box-down {
-    position: relative;
-    top: 100px;
-  }
   .box {
-    width: 80%;
+    width: 90%;
     margin-bottom: 60px;
     text-align: center;
   }
-
-  .box-top {
-    position: relative;
-    top: 95px;
-  }
-  
-  .headercard3{
-    width: 100%;
-    font: bold;
-    margin-bottom: 10px;
-  }   
   .box .card3 {
     width: 80px;
-    margin-right: 65px;
+    margin-right: 85px;
   }
   .box .card3a {
     width: 110px;
-    margin-right: 50px;
+    margin-right: 67px;
     height: 100px;
   }
   .box h2 {
@@ -1891,6 +1868,134 @@ footer .line {
 
   .card {
     margin-top: 40px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .card { 
+    width: 315px;
+    height: 460px;
+
+  }
+
+  /* deskripsi */
+  .bok {
+    margin: 20px auto; 
+    width: 70%;
+    height: 365px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+  
+  .bok p {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  /* end deskripsi */
+
+ /* edukasi */
+  .box {
+    width: 97%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .headercard3{
+    width: 100%;
+    font: bold;
+    margin-bottom: -90px;
+  }   
+  .box .card3 {
+    width: 80px;
+    margin-right: 67px;
+  }
+  .box .card3a {
+    width: 110px;
+    margin-right: 50px;
+    height: 100px;
+  }
+  .box h2 {
+    font-size: 20px;
+  }
+  .box p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .box .ket{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* end edukasi */
+
+  /* intern */
+  .intern .rex {
+    height: 460px;
+    width: 385px;
+  }
+
+  .intern .rex .boxx .contentbox .textdurasi {
+    font-size: 18px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-top: 70px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .intern .rex .boxx .contentbox .durasi3 {
+    font-size: 18px;
+  }
+
+  .intern .rex .boxx .contentbox .web {
+    padding: 5px 20px;
+    margin-top: 18px;
+    margin-bottom: 70px;
+  }
+  /* end intern */
+  
+  /* skill */
+  .headerskill {
+    margin-top: 90px;
+  }
+
+  .card {
+    margin-top: 40px;
+  }
+
+  /* FOOTER */
+  footer {
+    width: 500px auto;
+  }
+  .footer-head {
+    padding-left: 5px;
+    font-size: 16px;
+  }
+  .quicklinks {
+    padding-right: 10px;
+  }
+  footer .line {
+    width: 100%;
+    height: 3px;
+  }
+  
+  .footer-foot .contacts a {
+    margin-right: 17px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer-foot .copyright {
+    font-size: 15px;
+   margin-bottom: 20px;
+    margin-top: 25px;
   }
 
 }
